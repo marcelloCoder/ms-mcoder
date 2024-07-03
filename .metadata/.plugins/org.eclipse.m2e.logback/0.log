@@ -1079,3 +1079,18 @@
 2024-07-02 17:37:37,091 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-07-02 17:37:37,091 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sts-workspace\hr-worker\src\test\resources
 2024-07-03 15:00:53,364 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-07-03 15:14:08,902 [Worker-5: Launching hr-worker - HrWorkerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-03 15:14:08,909 [Worker-5: Launching hr-worker - HrWorkerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-07-03 15:14:08,920 [Worker-5: Launching hr-worker - HrWorkerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-07-03 15:14:08,925 [Worker-5: Launching hr-worker - HrWorkerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-03 15:14:08,925 [Worker-5: Launching hr-worker - HrWorkerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sts-workspace\hr-worker\src\test\resources
+2024-07-03 15:16:32,252 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-03 15:16:32,254 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-07-03 15:16:32,256 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-07-03 15:16:32,259 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-03 15:16:32,260 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sts-workspace\hr-worker\src\test\resources
+2024-07-03 15:20:09,337 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-03 15:20:09,338 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-07-03 15:20:09,340 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-07-03 15:20:09,346 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-03 15:20:09,346 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sts-workspace\hr-worker\src\test\resources
