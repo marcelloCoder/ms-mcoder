@@ -2466,3 +2466,47 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-07 11:42:50.456
 !MESSAGE Classpath changed for project: hr-api-gateway-zuul
+
+!ENTRY org.eclipse.debug.core 4 2 2025-04-07 11:59:09.627
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+com.sun.jdi.VMDisconnectedException: Got IOException from Virtual Machine
+	at org.eclipse.jdi.internal.connect.PacketSendManager.sendPacket(PacketSendManager.java:92)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:202)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:242)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:274)
+	at org.eclipse.jdi.internal.ReferenceTypeImpl.signature(ReferenceTypeImpl.java:1217)
+	at org.eclipse.jdi.internal.ReferenceTypeImpl.name(ReferenceTypeImpl.java:1202)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaBreakpoint.createRequest(JavaBreakpoint.java:521)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaBreakpoint.createRequests(JavaBreakpoint.java:656)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaBreakpoint.addToTarget(JavaBreakpoint.java:614)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.breakpointAdded(JDIDebugTarget.java:1568)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugOptionsManager.notifyTarget(JavaDebugOptionsManager.java:320)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugOptionsManager.handleDebugEvents(JavaDebugOptionsManager.java:533)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1263)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1297)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2025-04-07 11:59:09.628
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+com.sun.jdi.VMDisconnectedException: Got IOException from Virtual Machine
+	at org.eclipse.jdi.internal.connect.PacketSendManager.sendPacket(PacketSendManager.java:92)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:202)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:242)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:274)
+	at org.eclipse.jdi.internal.ReferenceTypeImpl.signature(ReferenceTypeImpl.java:1217)
+	at org.eclipse.jdi.internal.ReferenceTypeImpl.name(ReferenceTypeImpl.java:1202)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaBreakpoint.createRequest(JavaBreakpoint.java:521)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaBreakpoint.createRequests(JavaBreakpoint.java:656)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaBreakpoint.addToTarget(JavaBreakpoint.java:614)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.breakpointAdded(JDIDebugTarget.java:1568)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugOptionsManager.notifyTarget(JavaDebugOptionsManager.java:320)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugOptionsManager.handleDebugEvents(JavaDebugOptionsManager.java:533)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1263)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1297)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
