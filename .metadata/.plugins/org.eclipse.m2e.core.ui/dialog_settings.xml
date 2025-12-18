@@ -14,6 +14,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\sts-workspace\hr-api-gateway-zuul"/>
 			<item value="D:\sts-workspace\hr-eureka-server"/>
 		</list>
 		<list key="projectNameTemplate">
