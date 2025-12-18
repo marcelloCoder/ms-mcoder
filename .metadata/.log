@@ -2731,3 +2731,24 @@ Contains: Missing org.springframework.cloud:spring-cloud-starter:jar:sources:4.3
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-18 15:09:15.226
 !MESSAGE Classpath changed for project: hr-worker
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-18 15:58:29.229
+!MESSAGE Classpath changed for project: hr-config
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-18 15:58:29.738
+!MESSAGE Classpath changed for project: hr-config
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-18 15:59:26.620
+!MESSAGE Classpath changed for project: hr-config
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-18 15:59:26.621
+!MESSAGE Classpath changed for project: hr-api-gateway-zuul
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-18 15:59:26.623
+!MESSAGE Classpath changed for project: hr-eureka-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-18 15:59:26.629
+!MESSAGE Classpath changed for project: hr-payroll
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-18 15:59:27.588
+!MESSAGE Classpath changed for project: hr-worker
