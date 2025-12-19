@@ -14,6 +14,7 @@ public class AppConfig {
 		return new BCryptPasswordEncoder();
 	}
 	
+	@Bean
 	public JwtAccessTokenConverter accessTokenConverter() {
 		JwtAccessTokenConverter tokenConverter = new JwtAccessTokenConverter();
 		tokenConverter.setSigningKey("MY-SECRET-KEY");
