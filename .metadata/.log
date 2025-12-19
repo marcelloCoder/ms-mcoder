@@ -4252,3 +4252,45 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-19 11:39:23.042
+!MESSAGE Classpath changed for project: hr-oauth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-19 11:39:30.258
+!MESSAGE Classpath changed for project: hr-oauth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-19 11:39:30.259
+!MESSAGE Boot project ADDED: hr-oauth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-19 11:39:30.765
+!MESSAGE Classpath changed for project: hr-oauth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-19 11:40:56.929
+!MESSAGE Classpath changed for project: hr-oauth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-19 11:40:59.606
+!MESSAGE Classpath changed for project: hr-oauth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-19 11:41:03.229
+!MESSAGE Classpath changed for project: hr-oauth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-19 11:41:16.264
+!MESSAGE Classpath changed for project: hr-api-gateway-zuul
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-19 11:41:16.265
+!MESSAGE Classpath changed for project: hr-config
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-19 11:41:16.266
+!MESSAGE Classpath changed for project: hr-eureka-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-19 11:41:18.203
+!MESSAGE Classpath changed for project: hr-oauth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-19 11:41:18.204
+!MESSAGE Classpath changed for project: hr-payroll
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-19 11:41:18.204
+!MESSAGE Classpath changed for project: hr-user
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-19 11:41:19.202
+!MESSAGE Classpath changed for project: hr-worker
