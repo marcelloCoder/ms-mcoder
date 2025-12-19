@@ -15,7 +15,6 @@ INDEX VERSION 1.134+D:\sts-workspace\.metadata\.plugins\org.eclipse.jdt.core
 3016115687.index
 3380018556.index
 3104116748.index
-1935427057.index
 170233380.index
 1989227029.index
 2678564898.index
