@@ -140,7 +140,6 @@ INDEX VERSION 1.134+H:\sts-workspace\ms-mcoder\.metadata\.plugins\org.eclipse.jd
 2599753915.index
 1935427057.index
 2430617886.index
-2337195214.index
 1216410837.index
 1732278503.index
 4117645635.index
@@ -188,7 +187,6 @@ INDEX VERSION 1.134+H:\sts-workspace\ms-mcoder\.metadata\.plugins\org.eclipse.jd
 2836488203.index
 341280613.index
 2862206036.index
-1314976296.index
 3388016765.index
 196208998.index
 1769247434.index
@@ -198,7 +196,6 @@ INDEX VERSION 1.134+H:\sts-workspace\ms-mcoder\.metadata\.plugins\org.eclipse.jd
 3084911928.index
 4194351564.index
 2766988245.index
-1231091193.index
 1931398245.index
 2958385162.index
 3357496073.index
