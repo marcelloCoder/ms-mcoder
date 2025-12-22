@@ -1,4 +1,4 @@
-!SESSION 2025-12-22 13:56:04.930 -----------------------------------------------
+!SESSION 2025-12-22 15:41:44.716 -----------------------------------------------
 eclipse.buildId=4.38.0.202512052019
 java.version=25.0.1
 java.vendor=Eclipse Adoptium
@@ -7,349 +7,610 @@ Framework arguments:  -product org.springframework.boot.ide.branding.springtools
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.springtools
 
 This is a continuation of log file H:\sts-workspace\ms-mcoder\.metadata\.bak_0.log
-Created Time: 2025-12-22 15:03:33.787
+Created Time: 2025-12-22 15:48:48.296
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:03:33.788
-!MESSAGE 15:03:33.748 [pool-3-thread-40] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-user/src/main/java/com/devsuperior/hruser/config/AppConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.296
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.ParentProcessWatcher.lambda$apply$0(ParentProcessWatcher.java:129)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:03:34.247
-!MESSAGE 15:03:34.245 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-user/src/main/java/com/devsuperior/hruser/config/AppConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.297
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:03:34.757
-!MESSAGE 15:03:34.757 [pool-3-thread-40] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-user/src/main/java/com/devsuperior/hruser/config/AppConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.297
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:03:42.846
-!MESSAGE 15:03:42.845 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///H:/sts-workspace/ms-mcoder/hr-user/src/main/java/com/devsuperior/hruser/resources/UserResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.297
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:03:42.858
-!MESSAGE 15:03:42.855 [pool-3-thread-42] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-user/src/main/java/com/devsuperior/hruser/resources/UserResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.297
+!MESSAGE 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:03:42.858
-!MESSAGE 15:03:42.855 [pool-3-thread-41] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-user/src/main/java/com/devsuperior/hruser/resources/UserResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.298
+!MESSAGE 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:03:42.893
-!MESSAGE 15:03:42.892 [pool-3-thread-41] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-user/src/main/java/com/devsuperior/hruser/resources/UserResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.298
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:03:46.790
-!MESSAGE 15:03:42.895 [pool-3-thread-41] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-user/src/main/java/com/devsuperior/hruser/resources/UserResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.298
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:03:46.790
-!MESSAGE 15:03:43.083 [pool-3-thread-43] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-user/src/main/java/com/devsuperior/hruser/resources/UserResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.298
+!MESSAGE 	at java.base/java.lang.Thread.run(Thread.java:1474)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:03:46.790
-!MESSAGE 15:03:43.348 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-user/src/main/java/com/devsuperior/hruser/resources/UserResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.298
+!MESSAGE Caused by: java.util.concurrent.CancellationException: null
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:03:46.790
-!MESSAGE 15:03:46.769 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/AppConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.298
+!MESSAGE 	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2552)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:03:46.797
-!MESSAGE 15:03:46.796 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///H:/sts-workspace/ms-mcoder/hr-user/src/main/java/com/devsuperior/hruser/config/AppConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.299
+!MESSAGE 	... 26 common frames omitted
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:03:46.826
-!MESSAGE 15:03:46.826 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///H:/sts-workspace/ms-mcoder/hr-user/src/main/java/com/devsuperior/hruser/resources/UserResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.318
+!MESSAGE 15:48:48.317 [pool-5-thread-11] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:03:56.898
-!MESSAGE 15:03:56.898 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/feignclients/UserFeignClient.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.322
+!MESSAGE 15:48:48.320 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:03:56.900
-!MESSAGE 15:03:56.900 [pool-3-thread-43] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/feignclients/UserFeignClient.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.323
+!MESSAGE 15:48:48.321 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:03:56.907
-!MESSAGE 15:03:56.906 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/feignclients/UserFeignClient.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.324
+!MESSAGE 15:48:48.324 [pool-5-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:03:56.907
-!MESSAGE 15:03:56.906 [pool-3-thread-42] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/feignclients/UserFeignClient.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.327
+!MESSAGE 15:48:48.325 [pool-5-thread-17] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:03:56.907
-!MESSAGE 15:03:56.906 [pool-3-thread-41] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/feignclients/UserFeignClient.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.327
+!MESSAGE 15:48:48.326 [pool-5-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:03:56.908
-!MESSAGE 15:03:56.906 [pool-8-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/feignclients/UserFeignClient.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.330
+!MESSAGE 15:48:48.329 [pool-8-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:03:56.908
-!MESSAGE 15:03:56.906 [pool-3-thread-42] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/feignclients/UserFeignClient.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.330
+!MESSAGE 15:48:48.330 [pool-8-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:03:56.908
-!MESSAGE 15:03:56.906 [pool-3-thread-41] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/feignclients/UserFeignClient.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.331
+!MESSAGE 15:48:48.331 [pool-8-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:05.925
-!MESSAGE 15:03:56.957 [pool-3-thread-40] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/feignclients/UserFeignClient.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.333
+!MESSAGE 15:48:48.332 [pool-8-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:05.925
-!MESSAGE 15:03:56.960 [pool-3-thread-40] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/feignclients/UserFeignClient.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.333
+!MESSAGE 15:48:48.333 [pool-8-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:05.925
-!MESSAGE 15:03:56.960 [pool-3-thread-40] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/feignclients/UserFeignClient.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.334
+!MESSAGE 15:48:48.334 [pool-8-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:05.928
-!MESSAGE 15:04:05.926 [pool-3-thread-43] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/resources/UserResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.335
+!MESSAGE 15:48:48.335 [pool-8-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:05.933
-!MESSAGE 15:04:05.933 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/resources/UserResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.336
+!MESSAGE 15:48:48.335 [pool-8-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:05.933
-!MESSAGE 15:04:05.933 [pool-3-thread-42] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/resources/UserResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.364
+!MESSAGE 15:48:48.336 [pool-8-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:05.933
-!MESSAGE 15:04:05.933 [pool-3-thread-43] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/resources/UserResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.367
+!MESSAGE 15:48:48.367 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:05.939
-!MESSAGE 15:04:05.937 [pool-3-thread-41] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/resources/UserResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.729
+!MESSAGE 15:48:48.729 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:05.967
-!MESSAGE 15:04:05.967 [pool-3-thread-41] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/resources/UserResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:48.729
+!MESSAGE 15:48:48.729 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:05.969
-!MESSAGE 15:04:05.969 [pool-3-thread-41] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/resources/UserResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:49.174
+!MESSAGE 15:48:49.174 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:06.427
-!MESSAGE 15:04:06.426 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/resources/UserResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:49.177
+!MESSAGE 15:48:49.176 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:06.427
-!MESSAGE 15:04:06.426 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/resources/UserResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:50.037
+!MESSAGE 15:48:50.036 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:23.056
-!MESSAGE 15:04:23.055 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///H:/sts-workspace/ms-mcoder/hr-payroll/src/main/java/com/devsuperior/hrpayroll/resources/PaymentResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:50.039
+!MESSAGE 15:48:50.039 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:23.099
-!MESSAGE 15:04:23.059 [pool-3-thread-43] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-payroll/src/main/java/com/devsuperior/hrpayroll/resources/PaymentResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:51.008
+!MESSAGE 15:48:51.007 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - doc save event: file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:23.099
-!MESSAGE 15:04:23.088 [pool-3-thread-40] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-payroll/src/main/java/com/devsuperior/hrpayroll/resources/PaymentResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:51.024
+!MESSAGE 15:48:51.021 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:23.099
-!MESSAGE 15:04:23.097 [pool-3-thread-42] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-payroll/src/main/java/com/devsuperior/hrpayroll/resources/PaymentResource.java
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-12-22 15:48:51.468
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:23.099
-!MESSAGE 15:04:23.099 [pool-3-thread-42] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-payroll/src/main/java/com/devsuperior/hrpayroll/resources/PaymentResource.java
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-12-22 15:48:51.469
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:23.558
-!MESSAGE 15:04:23.557 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-payroll/src/main/java/com/devsuperior/hrpayroll/resources/PaymentResource.java
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-12-22 15:48:51.469
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:23.558
-!MESSAGE 15:04:23.557 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-payroll/src/main/java/com/devsuperior/hrpayroll/resources/PaymentResource.java
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-12-22 15:48:51.469
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:33.081
-!MESSAGE 15:04:33.081 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///H:/sts-workspace/ms-mcoder/hr-payroll/src/main/java/com/devsuperior/hrpayroll/services/PaymentService.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:51.490
+!MESSAGE 15:48:51.154 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - Finished scanning affected files [H:\sts-workspace\ms-mcoder\hr-api-gateway-zuul\src\main\java\br\com\mcoder\hr\api\gateway\zuul\config\ResourceServerConfig.java]
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:33.083
-!MESSAGE 15:04:33.082 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-payroll/src/main/java/com/devsuperior/hrpayroll/services/PaymentService.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:52.002
+!MESSAGE 15:48:51.493 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/target/classes/application.properties
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:33.093
-!MESSAGE 15:04:33.092 [pool-3-thread-42] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-payroll/src/main/java/com/devsuperior/hrpayroll/services/PaymentService.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:52.002
+!MESSAGE 15:48:51.493 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/target/classes/bootstrap.properties
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:33.093
-!MESSAGE 15:04:33.092 [pool-8-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-payroll/src/main/java/com/devsuperior/hrpayroll/services/PaymentService.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:52.002
+!MESSAGE 15:48:52.002 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:33.093
-!MESSAGE 15:04:33.092 [pool-3-thread-40] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-payroll/src/main/java/com/devsuperior/hrpayroll/services/PaymentService.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:52.003
+!MESSAGE 15:48:52.002 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Creating name env for project 'hr-api-gateway-zuul'
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:33.124
-!MESSAGE 15:04:33.093 [pool-3-thread-42] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-payroll/src/main/java/com/devsuperior/hrpayroll/services/PaymentService.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:52.045
+!MESSAGE 15:48:52.042 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:33.125
-!MESSAGE 15:04:33.124 [pool-3-thread-42] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-payroll/src/main/java/com/devsuperior/hrpayroll/services/PaymentService.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:52.666
+!MESSAGE 15:48:52.048 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:40.322
-!MESSAGE 15:04:33.126 [pool-3-thread-42] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-payroll/src/main/java/com/devsuperior/hrpayroll/services/PaymentService.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:48:52.669
+!MESSAGE 15:48:52.669 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:40.322
-!MESSAGE 15:04:33.126 [pool-3-thread-40] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-payroll/src/main/java/com/devsuperior/hrpayroll/services/PaymentService.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:06.921
+!MESSAGE 15:49:04.473 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:40.322
-!MESSAGE 15:04:40.322 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Closed: file:///H:/sts-workspace/ms-mcoder/hr-payroll/src/main/java/com/devsuperior/hrpayroll/resources/PaymentResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:06.922
+!MESSAGE 15:49:06.921 [JMX client heartbeat 4] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorService - disconnect from process: service:jmx:rmi:///jndi/rmi://127.0.0.1:60962/jmxrmi
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:46.862
-!MESSAGE 15:04:41.624 [pool-3-thread-42] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/resources/UserResource.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:06.931
+!MESSAGE 15:49:06.931 [pool-14-thread-1] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorRemote - Removing RemoteSpringBootApp: RemoteBootAppData [jmxurl=service:jmx:rmi:///jndi/rmi://127.0.0.1:60962/jmxrmi, host=127.0.0.1, urlScheme=http, port=null, manualConnect=false, keepChecking=true, processId=8444, processName=br.com.mcoder.hr.api.gateway.zuul.HrApiGatewayZuulApplication. projectName=hr-api-gateway-zuul]
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:46.862
-!MESSAGE 15:04:46.861 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/entities/User.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:12.119
+!MESSAGE ProcessWatcher.java:129)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:46.884
-!MESSAGE 15:04:46.883 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/entities/User.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:12.120
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:46.884
-!MESSAGE 15:04:46.883 [pool-8-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/entities/User.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:12.120
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:46.912
-!MESSAGE 15:04:46.893 [pool-3-thread-42] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/entities/User.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:12.120
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:46.913
-!MESSAGE 15:04:46.912 [pool-3-thread-42] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/entities/User.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:12.120
+!MESSAGE 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:46.913
-!MESSAGE 15:04:46.912 [pool-3-thread-43] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/entities/User.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:12.120
+!MESSAGE 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:47.363
-!MESSAGE 15:04:47.363 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/entities/User.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:12.121
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:52.130
-!MESSAGE 15:04:52.129 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/SecurityConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:12.121
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:52.131
-!MESSAGE 15:04:52.130 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/SecurityConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:12.121
+!MESSAGE 	at java.base/java.lang.Thread.run(Thread.java:1474)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:52.140
-!MESSAGE 15:04:52.138 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/SecurityConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:12.121
+!MESSAGE Caused by: java.lang.IllegalStateException: Live Data is not yet available!
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:52.140
-!MESSAGE 15:04:52.138 [pool-3-thread-42] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/SecurityConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:12.121
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.livehover.v2.SpringProcessCommandHandler.handleLiveProcessRequest(SpringProcessCommandHandler.java:330)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:52.172
-!MESSAGE 15:04:52.170 [pool-3-thread-40] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/SecurityConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:12.121
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.livehover.v2.SpringProcessCommandHandler.lambda$new$4(SpringProcessCommandHandler.java:81)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:52.172
-!MESSAGE 15:04:52.172 [pool-3-thread-42] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/SecurityConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:12.122
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.SimpleLanguageServer.executeCommand(SimpleLanguageServer.java:313)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:58.199
-!MESSAGE 15:04:52.321 [pool-8-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/SecurityConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:12.122
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.SimpleWorkspaceService.executeCommand(SimpleWorkspaceService.java:157)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:58.199
-!MESSAGE 15:04:52.632 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/SecurityConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:12.122
+!MESSAGE 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:58.202
-!MESSAGE 15:04:58.200 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/AppConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:12.122
+!MESSAGE 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:58.204
-!MESSAGE 15:04:58.204 [pool-3-thread-41] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/AppConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:12.122
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:59.213
-!MESSAGE 15:04:58.207 [pool-3-thread-40] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/AppConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:12.122
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:59.214
-!MESSAGE 15:04:58.243 [pool-3-thread-41] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/AppConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:12.123
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:59.214
-!MESSAGE 15:04:58.243 [pool-3-thread-40] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/AppConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:12.123
+!MESSAGE 	... 10 common frames omitted
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:59.214
-!MESSAGE 15:04:58.701 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/AppConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:12.129
+!MESSAGE 15:49:12.129 [pool-7-thread-1] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorService - Refreshing data from Spring process: service:jmx:rmi:///jndi/rmi://127.0.0.1:61446/jmxrmi - retry no: 0
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:59.214
-!MESSAGE 15:04:59.211 [pool-3-thread-41] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/AppConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:17.370
+!MESSAGE 15:49:12.223 [pool-8-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:04:59.214
-!MESSAGE 15:04:59.212 [pool-3-thread-40] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/AppConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:17.466
+!MESSAGE 15:49:17.380 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:05:06.424
-!MESSAGE 15:05:06.423 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/AuthorizationServerConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:17.469
+!MESSAGE 15:49:17.468 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:05:06.433
-!MESSAGE 15:05:06.427 [pool-3-thread-42] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/AuthorizationServerConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:17.871
+!MESSAGE 15:49:17.871 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:05:06.434
-!MESSAGE 15:05:06.433 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/AuthorizationServerConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:17.872
+!MESSAGE 15:49:17.871 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:05:06.434
-!MESSAGE 15:05:06.433 [pool-8-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/AuthorizationServerConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:18.401
+!MESSAGE 15:49:18.401 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:05:06.469
-!MESSAGE 15:05:06.435 [pool-3-thread-41] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/AuthorizationServerConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:18.405
+!MESSAGE 15:49:18.404 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:05:06.469
-!MESSAGE 15:05:06.467 [pool-3-thread-41] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/AuthorizationServerConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:19.112
+!MESSAGE 15:49:19.112 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:05:06.470
-!MESSAGE 15:05:06.469 [pool-3-thread-43] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/AuthorizationServerConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:19.115
+!MESSAGE 15:49:19.114 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:05:29.461
-!MESSAGE 15:05:06.494 [pool-8-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/AuthorizationServerConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:19.825
+!MESSAGE 15:49:19.825 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:05:29.462
-!MESSAGE 15:05:29.462 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/HrOauthApplication.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:19.837
+!MESSAGE 15:49:19.835 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:05:29.467
-!MESSAGE 15:05:29.464 [pool-3-thread-40] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/HrOauthApplication.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:19.928
+!MESSAGE 15:49:19.927 [pool-3-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:05:29.467
-!MESSAGE 15:05:29.467 [pool-3-thread-43] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/HrOauthApplication.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:20.329
+!MESSAGE 15:49:20.328 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:05:29.469
-!MESSAGE 15:05:29.469 [pool-3-thread-41] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/HrOauthApplication.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:20.329
+!MESSAGE 15:49:20.329 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java done in 1ms
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:05:35.028
-!MESSAGE 15:05:29.503 [pool-3-thread-41] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/HrOauthApplication.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:20.329
+!MESSAGE 15:49:20.329 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:05:35.028
-!MESSAGE 15:05:35.028 [pool-3-thread-41] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/AuthorizationServerConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:20.852
+!MESSAGE 15:49:20.852 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:06:04.814
-!MESSAGE 15:06:04.813 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/services/UserService.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:20.855
+!MESSAGE 15:49:20.855 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:06:04.859
-!MESSAGE 15:06:04.822 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/services/UserService.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:21.474
+!MESSAGE 15:49:21.471 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:06:04.859
-!MESSAGE 15:06:04.822 [pool-3-thread-42] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/services/UserService.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:26.297
+!MESSAGE 15:49:26.296 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:06:04.859
-!MESSAGE 15:06:04.858 [pool-3-thread-40] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/services/UserService.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:26.335
+!MESSAGE 15:49:26.333 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:06:04.860
-!MESSAGE 15:06:04.860 [pool-3-thread-40] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/services/UserService.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:26.336
+!MESSAGE 15:49:26.335 [pool-3-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:07:23.498
-!MESSAGE 15:07:23.497 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 1
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:26.336
+!MESSAGE 15:49:26.335 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:07:23.502
-!MESSAGE 15:07:23.500 [pool-5-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/HrOauthApplication.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:26.608
+!MESSAGE 15:49:26.608 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 41
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:07:23.550
-!MESSAGE 15:07:23.549 [pool-3-thread-48] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/HrOauthApplication.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:26.620
+!MESSAGE 15:49:26.620 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:07:23.553
-!MESSAGE 15:07:23.553 [pool-3-thread-47] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/HrOauthApplication.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:26.845
+!MESSAGE 15:49:26.844 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:07:23.558
-!MESSAGE 15:07:23.554 [pool-3-thread-44] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/HrOauthApplication.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:26.930
+!MESSAGE 15:49:26.929 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 0ms
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:07:27.994
-!MESSAGE 15:07:27.979 [pool-3-thread-47] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/AppConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:26.943
+!MESSAGE 15:49:26.941 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:07:42.823
-!MESSAGE 15:07:42.823 [pool-5-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/AuthorizationServerConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:27.266
+!MESSAGE 15:49:27.266 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:08:01.749
-!MESSAGE 15:08:01.732 [pool-5-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/SecurityConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:27.360
+!MESSAGE 15:49:27.278 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:08:29.262
-!MESSAGE 15:08:29.261 [pool-3-thread-47] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/AuthorizationServerConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:27.362
+!MESSAGE 15:49:27.361 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:08:29.262
-!MESSAGE 15:08:29.261 [pool-3-thread-47] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - hover computation done in 1ms
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:27.618
+!MESSAGE 15:49:27.618 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 44
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:08:47.018
-!MESSAGE 15:08:46.999 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/feignclients/UserFeignClient.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:27.873
+!MESSAGE 15:49:27.627 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:08:47.043
-!MESSAGE 15:08:47.026 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/entities/User.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:28.644
+!MESSAGE 15:49:27.874 [pool-3-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:08:47.068
-!MESSAGE 15:08:47.061 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/config/AuthorizationServerConfig.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:28.644
+!MESSAGE 15:49:28.121 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:08:47.105
-!MESSAGE 15:08:47.074 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/HrOauthApplication.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:28.644
+!MESSAGE 15:49:28.644 [pool-3-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:08:56.070
-!MESSAGE 15:08:52.553 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/resources/application.properties
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:29.408
+!MESSAGE 15:49:29.408 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:08:58.883
-!MESSAGE 15:08:58.882 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/services/UserService.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:29.411
+!MESSAGE 15:49:29.411 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:08:58.894
-!MESSAGE 15:08:58.894 [pool-5-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/services/UserService.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:30.515
+!MESSAGE 15:49:30.514 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 45
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:08:58.898
-!MESSAGE 15:08:58.897 [pool-3-thread-50] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/services/UserService.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:30.671
+!MESSAGE 15:49:30.524 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:08:58.937
-!MESSAGE 15:08:58.937 [pool-3-thread-49] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/services/UserService.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:30.672
+!MESSAGE 15:49:30.670 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:08:58.939
-!MESSAGE 15:08:58.939 [pool-3-thread-50] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/services/UserService.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:31.548
+!MESSAGE 15:49:31.547 [pool-3-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:09:04.411
-!MESSAGE 15:08:59.385 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/services/UserService.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:32.310
+!MESSAGE 15:49:32.308 [pool-3-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:09:04.411
-!MESSAGE 15:09:04.410 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Closed: file:///H:/sts-workspace/ms-mcoder/hr-oauth/src/main/java/com/devsuperior/hroauth/services/UserService.java
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:36.336
+!MESSAGE 15:49:35.627 [pool-8-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:49:36.336
+!MESSAGE 15:49:35.645 [pool-8-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:34.276
+!MESSAGE 15:52:34.275 [pool-5-thread-19] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:34.280
+!MESSAGE 15:52:34.280 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:36.284
+!MESSAGE 15:52:36.283 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:37.552
+!MESSAGE 15:52:37.552 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:39.884
+!MESSAGE 15:52:39.857 [pool-8-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:39.891
+!MESSAGE 15:52:39.891 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:39.895
+!MESSAGE 15:52:39.894 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:40.891
+!MESSAGE 15:52:40.361 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:40.891
+!MESSAGE 15:52:40.891 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:41.092
+!MESSAGE 15:52:40.894 [pool-3-thread-15] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:41.092
+!MESSAGE 15:52:41.092 [pool-3-thread-15] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:41.466
+!MESSAGE 15:52:41.465 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - doc save event: file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:41.470
+!MESSAGE 15:52:41.468 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:41.482
+!MESSAGE 15:52:41.481 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:41.491
+!MESSAGE 15:52:41.490 [pool-3-thread-15] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:41.537
+!MESSAGE 15:52:41.537 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-12-22 15:52:41.740
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-12-22 15:52:41.740
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-12-22 15:52:41.741
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-12-22 15:52:41.741
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:41.760
+!MESSAGE 15:52:41.596 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - Finished scanning affected files [H:\sts-workspace\ms-mcoder\hr-api-gateway-zuul\src\main\java\br\com\mcoder\hr\api\gateway\zuul\config\ResourceServerConfig.java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:41.762
+!MESSAGE 15:52:41.761 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/target/classes/bootstrap.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:41.865
+!MESSAGE 15:52:41.763 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/target/classes/bootstrap.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:42.323
+!MESSAGE 15:52:42.273 [pool-5-thread-19] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:42.326
+!MESSAGE 15:52:42.326 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:42.892
+!MESSAGE 15:52:42.892 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:42.895
+!MESSAGE 15:52:42.895 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:54.005
+!MESSAGE 15:52:54.004 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:54.007
+!MESSAGE 15:52:54.007 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:54.904
+!MESSAGE 15:52:54.903 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:54.932
+!MESSAGE 15:52:54.931 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:55.020
+!MESSAGE 15:52:54.950 [pool-5-thread-19] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:55.023
+!MESSAGE 15:52:55.023 [pool-3-thread-15] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:55.032
+!MESSAGE 15:52:55.032 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:55.950
+!MESSAGE 15:52:55.437 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:55.950
+!MESSAGE 15:52:55.949 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:55.956
+!MESSAGE 15:52:55.953 [pool-3-thread-15] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:55.957
+!MESSAGE 15:52:55.956 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:55.959
+!MESSAGE 15:52:55.958 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:56.570
+!MESSAGE 15:52:56.051 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - Finished scanning affected files [H:\sts-workspace\ms-mcoder\hr-api-gateway-zuul\src\main\java\br\com\mcoder\hr\api\gateway\zuul\config\ResourceServerConfig.java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:56.572
+!MESSAGE 15:52:56.572 [pool-3-thread-15] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-12-22 15:52:56.631
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-12-22 15:52:56.631
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-12-22 15:52:56.631
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-12-22 15:52:56.632
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:56.653
+!MESSAGE 15:52:56.650 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/target/classes/application.properties, file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/target/classes/bootstrap.properties, file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/target/classes/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.class]
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:56.654
+!MESSAGE 15:52:56.653 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/target/classes/bootstrap.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:57.160
+!MESSAGE 15:52:57.055 [pool-5-thread-19] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:52:57.161
+!MESSAGE 15:52:57.158 [pool-3-thread-15] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-12-22 15:52:57.172
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:430)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2117)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:11.602
+!MESSAGE 15:53:11.601 [pool-3-thread-15] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:11.604
+!MESSAGE 15:53:11.604 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:14.812
+!MESSAGE 15:53:14.812 [JMX client heartbeat 7] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorService - disconnect from process: service:jmx:rmi:///jndi/rmi://127.0.0.1:61446/jmxrmi
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:14.836
+!MESSAGE 15:53:14.836 [pool-14-thread-1] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorService - disconnect from process: service:jmx:rmi:///jndi/rmi://127.0.0.1:61446/jmxrmi
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.039
+!MESSAGE ProcessWatcher.java:129)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.039
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.039
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.040
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.040
+!MESSAGE 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.040
+!MESSAGE 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.040
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.040
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.040
+!MESSAGE 	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.040
+!MESSAGE Caused by: java.lang.IllegalStateException: Live Data is not yet available!
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.040
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.livehover.v2.SpringProcessCommandHandler.handleLiveProcessRequest(SpringProcessCommandHandler.java:330)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.041
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.livehover.v2.SpringProcessCommandHandler.lambda$new$4(SpringProcessCommandHandler.java:81)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.041
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.SimpleLanguageServer.executeCommand(SimpleLanguageServer.java:313)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.041
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.SimpleWorkspaceService.executeCommand(SimpleWorkspaceService.java:157)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.041
+!MESSAGE 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.041
+!MESSAGE 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.041
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.042
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.042
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.042
+!MESSAGE 	... 10 common frames omitted
+
+!ENTRY org.eclipse.jface 2 0 2025-12-22 15:53:20.045
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-12-22 15:53:20.045
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.049
+!MESSAGE 15:53:20.048 [pool-7-thread-8] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorService - Refreshing data from Spring process: service:jmx:rmi:///jndi/rmi://127.0.0.1:61742/jmxrmi - retry no: 0
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-22 15:53:20.156
+!MESSAGE 15:53:20.155 [pool-8-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///H:/sts-workspace/ms-mcoder/hr-api-gateway-zuul/src/main/java/br/com/mcoder/hr/api/gateway/zuul/config/ResourceServerConfig.java
