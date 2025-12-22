@@ -14,6 +14,13 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="H:\sts-workspace\ms-mcoder\hr-api-gateway-zuul"/>
+			<item value="H:\sts-workspace\ms-mcoder\hr-config"/>
+			<item value="H:\sts-workspace\ms-mcoder\hr-eureka-server"/>
+			<item value="H:\sts-workspace\ms-mcoder\hr-oauth"/>
+			<item value="H:\sts-workspace\ms-mcoder\hr-payroll"/>
+			<item value="H:\sts-workspace\ms-mcoder\hr-user"/>
+			<item value="H:\sts-workspace\ms-mcoder\hr-worker"/>
 			<item value="D:\sts-workspace\hr-config"/>
 			<item value="D:\sts-workspace\hr-api-gateway-zuul"/>
 			<item value="D:\sts-workspace\hr-eureka-server"/>
